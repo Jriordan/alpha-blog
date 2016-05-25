@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   root 'pages#home'
-  get 'about', to: 'pages#about'
+  get 'about' => 'pages#about'
 
   resources :articles
 
